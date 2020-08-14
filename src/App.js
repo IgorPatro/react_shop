@@ -19,7 +19,7 @@ const App = () => (
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/shop" component={Shop} />
-          <Route path="/admin/panel" component={AdminPanel} />
+          <Route exact path="/admin" component={AdminPanel} />
           <Route path="/admin/login" component={AdminLogin} />
         </Switch>
       </MainTemplate>
